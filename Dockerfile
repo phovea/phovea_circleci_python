@@ -1,6 +1,6 @@
 FROM circleci/python:2.7-browsers
 
-LABEL maintainer="samuel.gratzl@datavisyn.io"
+LABEL maintainer="contact@caleydo.org"
 LABEL description="This is a base image for python testing" 
 LABEL vendor="The Caleydo Team" 
 LABEL version="1.0"
