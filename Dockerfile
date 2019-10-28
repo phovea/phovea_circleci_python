@@ -6,5 +6,5 @@ LABEL vendor="The Caleydo Team"
 LABEL version="2.0"
 
 # install node
-RUN (curl -sL https://deb.nodesource.com/setup_8.x | sudo bash - ) \
+RUN (curl -sL https://deb.nodesource.com/setup_12.x | sudo bash - ) \
   && sudo apt-get install -y nodejs
